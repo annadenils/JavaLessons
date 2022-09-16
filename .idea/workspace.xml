@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c432e4a-367f-433b-8c65-d20147c9a93a" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/1131eff4952d05ab610f001c518b4ab928dfbb83" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondLesson/SLTask1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondLesson/SLTask2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondLesson/SLTask3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondLesson/SLTask4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondLesson/SLTask5.java" afterDir="false" />
+    <list default="true" id="3c432e4a-367f-433b-8c65-d20147c9a93a" name="Changes" comment="task for second lesson">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +36,33 @@
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SLTask5">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Information" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThirdLesson.Information" />
+      <module name="JavaLessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThirdLesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThirdLesson.Main" />
+      <module name="JavaLessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThirdLesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SLTask2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SecondLesson.SLTask2" />
       <module name="JavaLessons" />
@@ -98,32 +115,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondLesson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SecondLesson.SecondLesson" />
-      <module name="JavaLessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SecondLesson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.Information" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.SLTask2" />
       <item itemvalue="Application.SLTask3" />
       <item itemvalue="Application.SLTask5" />
-      <item itemvalue="Application.SecondLesson" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Information" />
         <item itemvalue="Application.SLTask5" />
         <item itemvalue="Application.SLTask3" />
         <item itemvalue="Application.SLTask2" />
-        <item itemvalue="Application.SecondLesson" />
-        <item itemvalue="Application.SecondLesson" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662454951789</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="task for second lesson">
+      <created>1663160845278</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663160845279</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +171,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="task for second lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="task for second lesson" />
   </component>
 </project>
