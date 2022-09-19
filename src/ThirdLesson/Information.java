@@ -6,8 +6,25 @@ public class Information{
 
     public static void main(String[] args) {
         Information sales = new Information();
-        System.out.println(String.format("In this month we sales " + sales.sales + " cars."));
+        System.out.println("In this month we sales " + sales.sales + " cars.");
 
+    }
+    public static void Dtp (int dtp){
+        if (dtp>0){
+            System.out.println("Auto has " + dtp + " car accident");
+        }
+        else {
+            System.out.println("No car accident");
+        }
+    }
+
+    final static void TurboType (){
+        if (!true){
+            System.out.println("Car has ordinary engine");
+        }
+        else {
+            System.out.println("Car has turbo engine");
+        }
     }
 
 

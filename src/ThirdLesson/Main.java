@@ -4,11 +4,17 @@ public class Main {
 
     public static void main(String[] args) {
         Information available = new Information();
-        System.out.println(String.format("We have " + available.available + " cars"));
-        Auto VW = new VW(181, "Tiguan", "Grey");
-        System.out.println(String.format("%s VW %s with power %s", VW.color, VW.model, VW.power));
-        Auto Skoda = new Skoda(99, "Fabia", "Red");
-        System.out.println(String.format("%s Skoda %s with power %s", Skoda.color, Skoda.model, Skoda.power));
-
+        System.out.println("We have " + available.available + " cars");
+        Auto VW = new VW(181, "disel", "Grey");
+        ThirdLesson.VW.ModelVw("Tiguan");
+        System.out.printf("%s color with %s engine type and power in %s horsepower%n",
+                VW.color, VW.engineType, VW.power);
+        Information.Dtp(9);
+        Auto Skoda = new Skoda(99, "petrol", "Red");
+        ThirdLesson.Skoda.ModelSkoda("Karoq");
+        System.out.printf("%s color with %s engine type and power in %s horsepower%n",
+                Skoda.color, Skoda.engineType, Skoda.power);
+        Information.TurboType();
+        Information.Dtp(0);
     }
 }

@@ -1,0 +1,10 @@
+
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿øÇ´úÿÿÿÿ
+k	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëåşÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒßëÙşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ä“Ê¬şÿÿÿÿ
+c
+java:S3457"AFormat specifiers should be used instead of string concatenation.(Ä“Ê¬şÿÿÿÿ8Ùƒ—°´0
+N	java:S106	"9Replace this use of System.out or System.err by a logger.(»«‘
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ßÙ†¥úÿÿÿÿ
