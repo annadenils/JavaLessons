@@ -18,15 +18,13 @@ public class Information{
         }
     }
 
-    final static void TurboType (){
-        if (!true){
+    static final void TurboType (){
+        if (false){
             System.out.println("Car has ordinary engine");
         }
         else {
             System.out.println("Car has turbo engine");
         }
     }
-
-
 }
 

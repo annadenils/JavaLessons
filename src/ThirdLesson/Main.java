@@ -3,8 +3,10 @@ package ThirdLesson;
 public class Main {
 
     public static void main(String[] args) {
+        Vender Dealer = new Dealer("PulkovoAvto");
+        Dealer.getName();
         Information available = new Information();
-        System.out.println("We have " + available.available + " cars");
+        System.out.println(available.available + " cars");
         Auto VW = new VW(181, "disel", "Grey");
         ThirdLesson.VW.ModelVw("Tiguan");
         System.out.printf("%s color with %s engine type and power in %s horsepower%n",
@@ -16,5 +18,8 @@ public class Main {
                 Skoda.color, Skoda.engineType, Skoda.power);
         Information.TurboType();
         Information.Dtp(0);
+        Washing washing = new Washing();
+        washing.washing();
+
     }
 }
