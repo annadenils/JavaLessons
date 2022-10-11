@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c432e4a-367f-433b-8c65-d20147c9a93a" name="Changes" comment="task for third lesson (editable)">
+    <list default="true" id="3c432e4a-367f-433b-8c65-d20147c9a93a" name="Changes" comment="task for fourth lesson">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThirdLesson/Information.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThirdLesson/Information.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThirdLesson/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThirdLesson/Auto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ThirdLesson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThirdLesson/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +41,19 @@
   }
 }</component>
   <component name="RunManager" selected="Application.Main">
+    <configuration name="HackerRank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SecondLesson.HackerRank" />
+      <module name="JavaLessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SecondLesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.epam.lections.HelloWorld" />
       <module name="JavaLessons" />
@@ -81,19 +93,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SLTask5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SecondLesson.SLTask5" />
-      <module name="JavaLessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SecondLesson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThirdLesson.VW" />
       <module name="JavaLessons" />
@@ -108,19 +107,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.HackerRank" />
       <item itemvalue="Application.HelloWorld" />
-      <item itemvalue="Application.VW" />
       <item itemvalue="Application.Information" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.SLTask5" />
+      <item itemvalue="Application.VW" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.HackerRank" />
         <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.VW" />
         <item itemvalue="Application.Information" />
-        <item itemvalue="Application.SLTask5" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663603334371</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="task for fourth lesson">
+      <created>1663771190837</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663771190837</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +186,7 @@
     <MESSAGE value="task for second lesson" />
     <MESSAGE value="task for third lesson" />
     <MESSAGE value="task for third lesson (editable)" />
-    <option name="LAST_COMMIT_MESSAGE" value="task for third lesson (editable)" />
+    <MESSAGE value="task for fourth lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="task for fourth lesson" />
   </component>
 </project>
