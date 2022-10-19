@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c432e4a-367f-433b-8c65-d20147c9a93a" name="Changes" comment="task for six and seven lesson">
-      <change afterPath="$PROJECT_DIR$/src/ThirdLesson/GetReady.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThirdLesson/ReadyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThirdLesson/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/Stock.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThirdLesson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThirdLesson/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +44,20 @@
       <recent name="ThirdLesson" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Generic">
+    <configuration name="Generic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EightLessons.Generic" />
+      <module name="JavaLessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EightLessons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetReady" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThirdLesson.GetReady" />
       <module name="JavaLessons" />
@@ -103,33 +110,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThirdLesson.VW" />
-      <module name="JavaLessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ThirdLesson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.Generic" />
       <item itemvalue="Application.GetReady" />
       <item itemvalue="Application.HackerRank" />
       <item itemvalue="Application.HelloWorld" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.VW" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Generic" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.GetReady" />
         <item itemvalue="Application.HackerRank" />
         <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Application.VW" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665513897080</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="task for six and seven lesson">
+      <created>1666172805224</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666172805224</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
