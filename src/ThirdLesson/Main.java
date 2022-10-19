@@ -1,5 +1,7 @@
 package ThirdLesson;
 
+import java.io.*;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -28,6 +30,28 @@ public class Main {
         };
         washing.washing();
         Wheels wheels = new Wheels(18,65);
+        try (ObjectOutputStream from = new ObjectOutputStream(new FileOutputStream("src/file/Stock.txt")))
+        {
+            Stock MotorOil = new Stock(240, "MotorOil for VW", "-");
+            from.writeObject(MotorOil);
+            } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        try (ObjectInputStream to = new ObjectInputStream(new FileInputStream("src/file/Stock.txt")))
+        {
+            Stock MotorOil = (Stock) to.readObject();
+            System.out.println(MotorOil);
+        } catch (IOException | ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+        GetReady getReady = new GetReady();
+        getReady.Money();
+        getReady.Contract();
+        try {
+            getReady.getready();
+        } catch (ReadyException e) {
+            System.out.println(e.getMessage());
+        }
 
 
     }
