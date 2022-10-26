@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c432e4a-367f-433b-8c65-d20147c9a93a" name="Changes" comment="task for eight lesson">
+    <list default="true" id="3c432e4a-367f-433b-8c65-d20147c9a93a" name="Changes" comment="task for ten lesson">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666207826833</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="task for ten lesson">
+      <created>1666696733436</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666696733436</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +222,7 @@
     <MESSAGE value="task for five lesson" />
     <MESSAGE value="task for six and seven lesson" />
     <MESSAGE value="task for eight lesson" />
-    <option name="LAST_COMMIT_MESSAGE" value="task for eight lesson" />
+    <MESSAGE value="task for ten lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="task for ten lesson" />
   </component>
 </project>

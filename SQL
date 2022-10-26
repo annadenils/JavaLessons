@@ -1,0 +1,16 @@
+CREATE TABLE 'Reservations' ('id' INT, 'room_id' INT, 'user_id' INT, 'start_date' DATETIME, 'end_date' DATETIME, 'comment' VARCHAR (255) NOT NULL)
+CREATE TABLE 'Users' ('id' INT, 'name' VARCHAR (255) NOT NULL, 'email' VARCHAR (255) NOT NULL, 'phone_number' VARCHAR (255) NOT NULL)
+CREATE TABLE 'Rooms' ('id' INT, 'address' VARCHAR (255) NOT NULL, 'price' INT)
+INSERT INTO 'Reservations' ('id', 'room_id', 'user_id', 'start_date', 'end_date', 'comment') VALUES
+(1, 123, 678, '26-10-2022', '29-11-2022', '-')
+INSERT INTO 'Users' ('id', 'name', 'email', 'phone_number') VALUES (678, 'Andrey K', 'sdf@fdj.com', '89234567890')
+INSERT INTO 'Rooms' ('id', 'address', 'price') VALUES (123, 'Podgorica, Dragomirska 34', 200)
+UPDATE 'Reservations' SET 'comment' = 'with animal' WHERE 'comment' = '-'
+DELETE 'comment' FROM 'Reservations' WHERE 'comment' = 'with animal'
+TRUNCATE TABLE 'Rooms'
+SELECT 'id' FROM 'Reservations' WHERE 'start_date' BETWEEN '20-09-2022' AND '29-11-2022'
+SELECT 'id' FROM 'Users' WHERE 'id' IN (678, 97, 234, 890)
+SELECT * FROM 'Users' WHERE 'name' LIKE 'An%'
+SELECT Users.id, Reservations.id, Users.name, Reservations.user_id FROM 'Users' JOIN 'Reservations' ON Reservations.user_id = Users.id ORDER BY Reservations.user_id
+SELECT COUNT(*) + (SELECT COUNT(*) FROM 'Reservations') + (SELECT COUNT(*) FROM 'Users')  AS 'total' FROM "Rooms"
+SELECT 'address', MAX('price') FROM 'Rooms' GROUP BY 'address'
